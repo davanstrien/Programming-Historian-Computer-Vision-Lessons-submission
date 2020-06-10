@@ -1,7 +1,7 @@
 ## 01 General intro to lessons/computer vision 
 - What do we mean by computer vision?
 - Why computer vision can be useful for historians 
-0 What kinds of things do historians want to have a lot of? And vice versa, what is there so much of that it has been hard for historians to look at/ask questions about the whole set?
+-  What kinds of things do historians want to have a lot of? And vice versa, what is there so much of that it has been hard for historians to look at/ask questions about the whole set?
 - Practical 
 - Research 
 - Lesson outline
@@ -52,5 +52,4 @@
 
 ### Other things you can do and further resources 
 - fastai course 
-- 
 
