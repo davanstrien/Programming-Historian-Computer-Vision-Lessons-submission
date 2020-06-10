@@ -7,7 +7,7 @@
 - Lesson outline
 - Where to get images/data? IIIF example 
 
-## Bulk stuff with images (command line) 
+## 02 Bulk stuff with images (command line) 
 - How to work with image collections efficiently 
 - Why not a GUI  
 - Imagemagick
@@ -20,7 +20,7 @@
 	- djvu 
 	- others
 
-## ‘Traditional computer vision’ 
+## 03 ‘Traditional computer vision’ 
 - ‘Traditional’ CV? 
 - How images are stored on a computer 
 - Python image libraries
@@ -28,7 +28,7 @@
 - Edge detection
 - Visual style (point to possible next steps using ML to work with the output)
 
-## Deep learning based computer vision  
+## 04 Deep learning based computer vision  
 - What is deep-learning 
 - Why - Practical tasks 
 - Why -  More research-driven 
@@ -40,13 +40,17 @@
 - How much data
 - What labels?
 - How many classes?
+- Classification (transfer learning) 
+- Metrics for validating performance 
+- Generalisability in humanities models/data
+- Reproducibility? 
+- Something on working with probabilities as outputs?
 
-Classification (transfer learning) 
-Metrics for validating performance 
-Generalisability in humanities models/data
-Reproducibility? 
-Something on working with probabilities as outputs?
+### Appendix 
+- Working with video (some hints on the steps you would need to take with links) 
+- working with audio (some hints on the steps you would need to take with links) 
 
 ### Other things you can do and further resources 
-
+- fastai course 
+- 
 
