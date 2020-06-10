@@ -38,13 +38,12 @@
 - A more developed use case (advertising in press directories?)     
 - Building a training set
 - How much data
-- What labels?
-- How many classes?
+- What labels?  how many labels?
 - Classification (transfer learning) 
 - Metrics for validating performance 
 - Generalisability in humanities models/data
-- Reproducibility? 
-- Something on working with probabilities as outputs?
+- Reproducibility 
+- probabilities of predictions
 
 ### Appendix 
 - Working with video (some hints on the steps you would need to take with links) 
