@@ -4,5 +4,7 @@ channels:
 dependencies:
   - pip
   - jupyterlab
+  - pillow
+  - numpy
 prefix: /usr/local/anaconda3/envs/programming-historian-cv
 
