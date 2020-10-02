@@ -19,10 +19,10 @@ You will need to install [Git](https://git-scm.com/downloads) on your system. If
 
 ## Clone this Github repository
 
-Once you have installed GitHub and Anaconda you should clone this repository using `git clone url` !todo add final repo link. 
+Once you have installed GitHub and Anaconda you should clone this repository using `git clone url` # TODO add final repo link. 
 This command will download the data and notebooks into a new directory inside the directory you are currently working in. 
 
 ## Create a new conda environment 
 
-Once you have cloned the repository change into the newly downloaded directory `cd` !todo add new directory name
+Once you have cloned the repository change into the newly downloaded directory `cd` # TODO add new directory name
 `conda create -f environment.yml` 
