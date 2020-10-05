@@ -1,10 +1,10 @@
-name: todo2issue
+name: "Workflow"
 on: ["push"]
 jobs:
   build:
     runs-on: "ubuntu-latest"
     steps:
-      - uses: "actions/checkout@master"
+      - uses: actions/checkout@v2
       - name: "TODO to Issue"
         uses: "alstr/todo-to-issue-action@v2.0"
         with:
