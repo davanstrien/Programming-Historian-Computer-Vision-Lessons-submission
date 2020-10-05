@@ -19,19 +19,19 @@ You will need to install [Git](https://git-scm.com/downloads) on your system. If
 
 ## Clone this Github repository
 
-Once you have installed GitHub and Anaconda you should clone this repository using `git clone url` \ # TODO add final GitGub repo link. 
+Once you have installed GitHub and Anaconda you should clone this repository using `git clone url` \ # todo add final GitGub repo link. 
 This command will download the data and notebooks into a new directory inside the directory you are currently working in. 
 
 ## Create a new conda environment 
 
-Once you have cloned the repository change into the newly downloaded directory `cd` \ # TODO update directory name 
+Once you have cloned the repository change into the newly downloaded directory `cd` \ # todo update directory name 
 From this directory run 
 
 `conda create -f environment.yml`
 
 This will create a new Conda environment with the required packages installed. 
 
-`conda activate` \ # TODO confirm conda env name
+`conda activate` \ # todo confirm conda env name
 
 ## Start Jupyter 
 
