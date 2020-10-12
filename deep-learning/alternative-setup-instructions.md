@@ -19,17 +19,16 @@ https://www.paperspace.com/
 
 ## Local setup 
 
-If you prefer to run the lessons on a local computer or a server you have access to we suggest the following approach to setting up the lesson code.
+If you prefer to run the lessons on a local computer or a server you have access to we suggest the following approach to setting up the lesson code. 
 
 ### Required Software 
 
 #### Anaconda 
 
-If you don't already have Anaconda installed you will need to start by installing the anaconda version for your operating system. If you don't already have anaconda installed we would recommend installing [Minconda](https://docs.conda.io/en/latest/miniconda.html) for Python 3.8. If you already have Conda installed, the full version of Anaconda will also work. 
+Anaconda is a Python distribution that provides access to many common Python Data Science packages. Anaconda also has support for virtual environments which allow you to isolate the code used for different projects. If you don't already have Anaconda installed you will need to start by installing the anaconda version for your operating system. If you don't already have anaconda installed we would recommend installing [Minconda](https://docs.conda.io/en/latest/miniconda.html) for Python 3.8. If you already have Conda installed, the full version of Anaconda will also work.  
 
 #### Git
-You will need to install [Git](https://git-scm.com/downloads) on your system. If you are running a GNU/Linux operating system it is likely you already have Git installed. You can confirm this by running `git --version`. 
-
+You will need to install [Git](https://git-scm.com/downloads) on your system. If you are running a GNU/Linux or Mac OS operating system it is likely you already have Git installed. You can confirm this by running `git --version`. 
 
 ### Clone this Github repository
 
