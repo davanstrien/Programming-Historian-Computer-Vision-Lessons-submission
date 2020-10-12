@@ -17,7 +17,7 @@ https://www.paperspace.com/
 
 ## Local setup 
 
-If you prefer to run the lessons on a local computer or a server you have access to we suggest the following approach to setting up an environment to run the code. Whilst we aim for these instructions to work you will probably have more trouble-free experience by running the code using a cloud provider.
+If you prefer to run the lessons on a local computer or a server you have access to we suggest the following approach to setting up an environment to run the code. Whilst we aim for these instructions to work you will probably have more trouble-free experience by running the code using one of the cloud setup options. 
 
 ### Required Software 
 
@@ -75,5 +75,5 @@ This should open up Jupyter lab in your default browser.
 - If you have other conda environments these may register as the default in Jupyter lab. You should be able to change these in the top right of the Jupyter notebook interface when you have a notebook open. Selecting `Python 3` should select the environment you are running the Jupyter notebook from i.e. the one you set up for this lesson. 
 - Running code locally may require you to make some changes:
   - depending on your local hardware you might need to reduce to batch size, replace the values following `bs` with a lower value like `8` *should* help with issues related to running out of memory 
-  - you may get issues related to multiprocessing. If you get an error which says `RuntimeError: DataLoader worker (pid(s) 95236, 95243, 95245) exited unexpectedly` then you should try turning off multiprocessing. This can be down by adding a new parameter to the fastai dataloarders  `num_cpus=0`
+  - you may get issues related to multiprocessing. If you get an error which says `RuntimeError: DataLoader worker (pid(s) 95236, 95243, 95245) exited unexpectedly` then you should try turning off multiprocessing. This can be down by adding a new parameter to the `fastai` `dataloaders`: `num_workers=0`
   
