@@ -1,0 +1,10 @@
+name: ph-deep-learning
+channels:
+  - defaults
+  - pytorch
+  - fastai
+  - conda-forge
+dependencies:
+  - fastai
+  - jupyterlab
+prefix: /usr/local/anaconda3/envs/ph-deep-learning
