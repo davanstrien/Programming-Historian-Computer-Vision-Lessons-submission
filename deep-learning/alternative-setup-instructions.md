@@ -34,6 +34,8 @@ You will need to install [Git](https://git-scm.com/downloads) on your system. If
 Once you have installed GitHub and Anaconda you should clone this repository using `git clone https://github.com/davanstrien/programming-historian-computer-vision-lesson` \ # TODO add final GitGub repo link. 
 This command will download the data and notebooks into a new directory inside the directory you are currently working in. 
 
+**!Note** this GitHub repository includes the images used for training the model so it may take a while to clone depending on your network speed. 
+
 ### Create a new conda environment 
 
 Once you have cloned the repository change into the newly downloaded directory:
