@@ -15,7 +15,7 @@ https://www.paperspace.com/
 2. 
 
 
-## Local setup 
+## Running on another machine 
 
 If you prefer to run the lessons on a local computer or a server you have access to we suggest the following approach to setting up an environment to run the code. Whilst we aim for these instructions to work you will probably have more trouble-free experience by running the code using one of the cloud setup options. 
 
@@ -27,7 +27,7 @@ Anaconda is a Python distribution that provides access to many common Python Dat
 
 #### Git
 
-You will need to install [Git](https://git-scm.com/downloads) on your system. If you are running a GNU/Linux or Mac OS operating system it is likely you already have Git installed. You can confirm this by running `git --version`. 
+You will need to install [Git](https://git-scm.com/downloads) on your system. If you are running a GNU/Linux or Mac OS operating system it is likely you already have Git installed. You can confirm this by running `git --version`. If you have no Git installed see the [install guide](https://github.com/git-guides/install-git) for help getting started. 
 
 ### Clone this Github repository
 
