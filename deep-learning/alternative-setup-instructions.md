@@ -17,7 +17,7 @@ https://www.paperspace.com/
 
 ## Local setup 
 
-If you prefer to run the lessons on a local computer or a server you have access to we suggest the following approach to setting up an environment to run the code. Whilst we aim for these instructions to work you will probably have more trouble-free experience by running the code using a cloud provider.
+If you prefer to run the lessons on a local computer or a server you have access to we suggest the following approach to setting up an environment to run the code. Whilst we aim for these instructions to work you will probably have more trouble-free experience by running the code using one of the cloud setup options. 
 
 ### Required Software 
 
