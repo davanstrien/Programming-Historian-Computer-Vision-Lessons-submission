@@ -44,6 +44,8 @@ Once you have cloned the repository change into the newly downloaded directory:
 cd programming-historian-computer-vision-lesson
 ``` 
 
+!additional step before moving to new repo. `git checkout deep-learning-draft` \ # TODO remove this once branch pushed to release repo
+
 This will take you to the main directory for the Programming Historian lesson. Then change into the directory containing the deep learning lessons \# TODO update directory name on publication
 
 
