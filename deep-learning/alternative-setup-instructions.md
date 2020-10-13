@@ -7,7 +7,7 @@ The main setup instructions can be found on the Programming Historian lesson whi
 ## Alternative cloud setup 
 
 \ # TODO add Paperspace setup instructions 
-\ # TODO pin docker fastai container used for Paperspace 
+
 
 https://www.paperspace.com/
 
