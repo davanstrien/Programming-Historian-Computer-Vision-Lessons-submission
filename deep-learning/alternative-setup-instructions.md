@@ -8,12 +8,15 @@ The main setup instructions can be found on the Programming Historian lesson whi
 
 \ # TODO add Paperspace setup instructions 
 
-
 https://www.paperspace.com/
 
 1. Create an account with [Paperspace](https://www.paperspace.com/) 
-2. 
-
+2. Go to:
+  - \ # TODO add url for the first notebook 
+  - \ # TODO add url for the first notebook 
+3. When you open the notebook you will be presented with some options for 'Machine Type', you should select one of the options which have a GPU. 
+4. Sometimes Paperspace will not have sufficient capacity to offer you a free GPU notebook, if you get a warning about this you should wait a few minutes and try again. <sup>[1](#myfootnote1)</sup>
+5. Inside the notebook everything will be almost the same as in the lesson, the only difference will be an extra notebook cell which installs the `fastai` library and ensures workshop data is available. 
 
 ## Running on another machine 
 
@@ -81,3 +84,4 @@ This should open up Jupyter lab in your default browser.
   - depending on your local hardware you might need to reduce to batch size, replace the values following `bs` with a lower value like `8` *should* help with issues related to running out of memory 
   - you may get issues related to multiprocessing. If you get an error which says `RuntimeError: DataLoader worker (pid(s) 95236, 95243, 95245) exited unexpectedly` then you should try turning off multiprocessing. This can be down by adding a new parameter to the `fastai` `dataloaders`: `num_workers=0`
   
+<a name="myfootnote1">1</a>: Although Paperspace has offered free GPUs for some time, however, we cannot guarantee they will continue to do so indefinitely. 
