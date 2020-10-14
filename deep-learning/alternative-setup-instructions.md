@@ -6,9 +6,7 @@ The main setup instructions can be found on the Programming Historian lesson whi
 
 ## Alternative cloud setup 
 
-\ # TODO add Paperspace setup instructions 
-
-https://www.paperspace.com/
+If for some reasons you don't want to use Kaggle there are other options available which will give you free access to a GPU enabled Jupyter notebook environment. One of these options is [Paperspace](https://www.paperspace.com/), an online platform which includes a hosted notebooks service. This service includes a number of free options, including machines with GPU enabled. 
 
 1. Create an account with [Paperspace](https://www.paperspace.com/) 
 2. Go to:
