@@ -8,4 +8,5 @@ dependencies:
   - fastai
   - jupyterlab
   - ipywidgets
+  - widgetsnbextension
 prefix: /usr/local/anaconda3/envs/ph-deep-learning
