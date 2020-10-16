@@ -71,7 +71,7 @@ conda activate ph-deep-learning
 The Jupyter notebook lessons are inside the directory you should currently be in `deep-learning`. The conda env you have just created contains jupyter lab. To run this you can run
 
 ```bash
-jupyter lab
+jupyter notebook
 ```
 
 This should open up Jupyter lab in your default browser. 
