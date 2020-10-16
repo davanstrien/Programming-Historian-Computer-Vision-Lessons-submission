@@ -3,7 +3,6 @@
 The main setup instructions can be found on the Programming Historian lesson which this repository accompanies. Although we have done our best to ensure these other options work, we recommend using the Kaggle option unless you have a strong reason not to. 
 
 
-
 ## Alternative cloud setup 
 
 ### Paperspace
@@ -58,7 +57,7 @@ cd deep-learning
 Inside this directory run:
 
 ```bash
-conda create -f environment.yml
+conda env create -f environment.yml
 ```
 
 This will create a new Conda environment with the required packages installed. 
