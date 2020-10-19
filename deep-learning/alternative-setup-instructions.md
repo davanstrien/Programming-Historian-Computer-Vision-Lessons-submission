@@ -18,7 +18,7 @@ If for some reasons you don't want to use Kaggle there are other options availab
 
 ## Running on another machine 
 
-If you prefer to run the lessons on a local computer or a server you have access to we suggest the following approach to setting up an environment to run the code. Whilst we aim for these instructions to work you will probably have more trouble-free experience by running the code using one of the cloud setup options. 
+If you prefer to run the lessons on a local computer or a server you have access to we suggest the following approach to setting up an environment to run the code. Whilst we aim for these instructions to work you will probably have more trouble-free experience by running the code using one of the cloud setup options.
 
 ### Required Software 
 
@@ -28,7 +28,7 @@ Anaconda is a Python distribution that provides access to many common Python Dat
 
 #### Git
 
-You will need to install [Git](https://git-scm.com/downloads) on your system. If you are running a GNU/Linux or Mac OS operating system it is likely you already have Git installed. You can confirm this by running `git --version`. If you have no Git installed see the [install guide](https://github.com/git-guides/install-git) for help getting started. 
+You will need to install [Git](https://git-scm.com/downloads) on your system. If you are running a GNU/Linux or Mac OS operating system it is quite likely you already have Git installed. You can confirm this by running `git --version`. If you have no Git installed see the [install guide](https://github.com/git-guides/install-git) for help getting started. 
 
 ### Clone this Github repository
 
@@ -60,7 +60,7 @@ Inside this directory run:
 conda env create -f environment.yml
 ```
 
-This will create a new Conda environment with the required packages installed. 
+This will create a new Conda environment with the required packages installed. If you have issues running this command it might be because you haven't added conda to your `PATH`. Please see the https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda for help. 
 
 ```bash
 conda activate ph-deep-learning
