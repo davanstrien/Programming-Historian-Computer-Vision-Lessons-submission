@@ -2,20 +2,6 @@
 
 The main setup instructions can be found on the Programming Historian lesson which this repository accompanies. Although we have done our best to ensure these other options work, we recommend using the Kaggle option unless you have a strong reason not to. 
 
-
-## Alternative cloud setup 
-
-### Paperspace
-If for some reasons you don't want to use Kaggle there are other options available which will give you free access to a GPU enabled Jupyter notebook environment. One of these options is [Paperspace](https://www.paperspace.com/), an online platform which includes a hosted notebooks service. This service includes a number of free options, including machines with GPU enabled. 
-
-1. Create an account with [Paperspace](https://www.paperspace.com/) 
-2. Go to:
-  - \ # TODO add url for the first notebook 
-  - \ # TODO add url for the first notebook 
-3. When you open the notebook you will be presented with some options for 'Machine Type', you should select one of the options which have a GPU. 
-4. Sometimes Paperspace will not have sufficient capacity to offer you a free GPU notebook, if you get a warning about this you should wait a few minutes and try again. <sup>[1](#myfootnote1)</sup>
-5. Inside the notebook everything will be almost the same as in the lesson, the only difference will be an extra notebook cell which installs the `fastai` library and ensures workshop data is available. 
-
 ## Running on another machine 
 
 If you prefer to run the lessons on a local computer or a server you have access to we suggest the following approach to setting up an environment to run the code. Whilst we aim for these instructions to work you will probably have more trouble-free experience by running the code using one of the cloud setup options.
@@ -32,7 +18,7 @@ You will need to install [Git](https://git-scm.com/downloads) on your system. If
 
 ### Clone this Github repository
 
-Once you have installed GitHub and Anaconda you should clone this repository using `git clone https://github.com/davanstrien/programming-historian-computer-vision-lesson` \ # TODO add final GitGub repo link. 
+Once you have installed GitHub and Anaconda you should clone this repository using `git clone https://github.com/davanstrien/Programming-Historian-Computer-Vision-Lessons-submission` \ # TODO add final GitGub repo link. 
 This command will download the data and notebooks into a new directory inside the directory you are currently working in. 
 
 **!Note** this GitHub repository includes the images used for training the model so it may take a while to clone depending on your network speed. 
@@ -44,8 +30,6 @@ Once you have cloned the repository change into the newly downloaded directory:
 ```bash
 cd programming-historian-computer-vision-lesson
 ``` 
-
-!additional step before moving to new repo. `git checkout deep-learning-draft` \ # TODO remove this once branch pushed to release repo
 
 This will take you to the main directory for the Programming Historian lesson. Then change into the directory containing the deep learning lessons \# TODO update directory name on publication
 
@@ -82,4 +66,3 @@ This should open up Jupyter lab in your default browser.
   - depending on your local hardware you might need to reduce to batch size, replace the values following `bs` with a lower value like `8` *should* help with issues related to running out of memory 
   - you may get issues related to multiprocessing. If you get an error which says `RuntimeError: DataLoader worker (pid(s) 95236, 95243, 95245) exited unexpectedly` then you should try turning off multiprocessing. This can be down by adding a new parameter to the `fastai` `dataloaders`: `num_workers=0`
   
-<a name="myfootnote1">1</a>: Although Paperspace has offered free GPUs for some time, however, we cannot guarantee they will continue to do so indefinitely. 
